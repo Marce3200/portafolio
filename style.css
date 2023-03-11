@@ -58,7 +58,7 @@ html{
 /* SECCION I N I C I O */
 .inicio{
     background: linear-gradient(to top, rgba(30,35,38,.8), rgba(30,35,38,1)),
-    url(img/fondo.jpg);
+    url(img/fondo1.png);
     background-size: cover;
     height: 100vh;
     color: #fff;
@@ -104,7 +104,19 @@ html{
     transition: .3s;
 }
 .inicio .contenido-banner .redes a:hover{
-    background-color: #1CB698;
+    background-color: #1c64b6;
+}
+.redesSobremi a{
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    line-height: 42px;
+    margin: 40px 5px;
+    font-size: 50px;
+    transition: .3s;
+}
+.inicio .contenido-banner .redes a:hover{
+    background-color: #1c64b6;
 }
 .sobremi{
     background-color: #1e2326;
@@ -128,7 +140,7 @@ html{
     margin-bottom: 20px;
 }
 .sobremi .contenido-seccion p span{
-    color: #1CB698;
+    color: #1c6cb6;
     font-weight: bold;
 }
 .sobremi .fila{
@@ -151,11 +163,11 @@ html{
 }
 .sobremi .fila .col ul li strong{
     display: inline-block;
-    color: #1CB698;
+    color: #1c7eb6;
     width: 130px;
 }
 .sobremi .fila .col ul li span{
-    background-color: #1CB698;
+    background-color: #1c69b6;
     padding: 3px;
     font-weight: bold;
     border-radius: 5px;
@@ -176,7 +188,7 @@ html{
     justify-content: center;
     transition: .3s;
 }.sobremi .fila .col .contenedor-intereses .interes:hover{
-    background-color: #1CB698;
+    background-color: #1c64b6;
 }
 .sobremi .fila .col .contenedor-intereses .interes i{
     font-size: 30px;
@@ -201,7 +213,7 @@ html{
     left: 0;
     width: 0;
     height: 100%;
-    background-color: #1CB698;
+    background-color: #1c7eb6;
     z-index: -1;
     transition: 1s;
 }
@@ -405,30 +417,30 @@ html{
     margin-bottom: 10px;
 }
 .curriculum .fila .item .casa{
-    color: #1CB698;
+    color: hwb(216 39% 27%);
     font-size: 22px;
     font-weight: bold;
     display: block;
 }
 .curriculum .fila .item .fecha{
     display: block;
-    color: #1CB698;
+    color: #aeb61c;
     margin-bottom: 10px;
 }
 .curriculum .fila .item p{
     line-height: 24px;
 }
 .curriculum .fila .izq{
-    border-right: 2px solid #1CB698;
+    border-right: 2px solid #1c69b6;
     margin-right: 20px;
 }
 .curriculum .fila .der{
-    border-left: 2px solid #1CB698;
+    border-left: 2px solid #aeb61c;
     margin-left: 20px;
 }
 .curriculum .fila .item .conectori{
     height: 2px;
-    background-color: #1CB698;
+    background-color: #1c69b6;
     width: 47px;
     position: absolute;
     top: 50%;
@@ -502,7 +514,7 @@ html{
     width: 100%;
     height: 100%;
     text-align: center;
-    background: linear-gradient(rgba(28,182,152,.8), rgba(28,182,152,.8));
+    background: linear-gradient(rgba(28, 92, 182, 0.8), rgba(28, 90, 182, 0.8));
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -575,7 +587,7 @@ html{
     left: 0;
     width: 0;
     height: 100%;
-    background-color: #1CB698;
+    background-color: #1c61b6;
     z-index: -1;
     transition: 1s;
 }
@@ -590,7 +602,7 @@ html{
     top: 40%;
     background-color: #252A2E;
     padding: 20px;
-    max-swidth: 350px;
+    max-width: 350px;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -601,7 +613,7 @@ html{
     margin-bottom: 20px;
 }
 .contacto .col .info ul li i{
-    color: #1CB698;
+    color: #1c64b6;
     display: inline-block;
     margin-right: 20px;
 }
@@ -633,7 +645,7 @@ footer .arriba{
     display: block;
     width: 50px;
     height: 50px;
-    background-color: #1CB698;
+    background-color: #1c66b6;
     color: #fff;
     position: absolute;
     left: 50%;
