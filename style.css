@@ -557,6 +557,7 @@ html{
 }
 .contacto .contenido-seccion{
     max-width: 1100px;
+    text-align: center;
     margin: auto;
 }
 .contacto h2{
@@ -569,7 +570,7 @@ html{
     display: flex;
 }
 .contacto .col{
-    width: 50%;
+    width: 100%;
     padding: 10px;
     position: relative;
 }
